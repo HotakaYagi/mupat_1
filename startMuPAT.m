@@ -2,6 +2,8 @@ function startMuPAT(threadNum, avx, fma)
 global deffma;
 global defavx;
 global defthreadNum;
+global defacc;
+defacc = 0;
 addpath src
 switch nargin
     case 0
